@@ -19,7 +19,7 @@ return onDelete(objectId)
 }}>Delete</Button>
 <Button className="ui green button" style={{ margin:'10px 15px'}} onClick={()=>{
 return onUpdate(objectId)
-}}>Update</Button>
+}}>Update ID</Button>
 </div> 
 </div>
 
