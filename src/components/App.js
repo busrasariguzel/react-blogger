@@ -33,7 +33,7 @@ class App extends Component {
         this.setState({blogs:updatedBlogs});
     }
     onUpdate(id){
-        console.log(id)
+        console.log(`Update : ${id}`)
     }
     handleChange = (event) => {
         this.setState({searchTerm:event.target.value}, ()=> {
